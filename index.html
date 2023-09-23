@@ -1,0 +1,104 @@
+<html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css" type=text/css>
+<body>
+    
+<div id="home" class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#hero">Hero</a>
+    <a href="#about">About Me</a>
+    <a href="#work">Work Experience</a>
+    <a href="#contact">Contact</a>
+</div>
+    
+<div id="hero" class="hero-image">
+    <div class="hero-text">
+        <h1>I am Ben Cavanagh</h1>
+        <p>And I'm a Software Engineering Student</p>
+        <button>Click Me!</button>
+    </div>
+</div>
+    
+<style>
+.footer {
+    position: fixed;
+    left: 0;
+     bottom: 0;
+    width: 100%;
+    background-color: 001B87;
+    color: white;
+    text-align: center;
+}
+</style>
+
+<div class="footer">
+    <p>Ben's Portfolio</p>
+</div>
+    
+<div id="about" class="about-section">
+    <h1>About Me</h1>
+    <p1>Learn more about me!</p1>
+</div>
+
+<h2 style="text-align:center">Me</h2>
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="photo.jpg" width=300 height=450 class="center">
+            
+            <div class="container">
+                <h2>Ben Cavanagh</h2>
+                <p class="title">Student || UWO</p>
+                <p>I am in my second year studying software engineering at the University of Western Ontario</p>
+                <p>bcavana@uwo.ca</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div id="work" class="work-experience">
+    <h1>Work Experience</h1>
+    <h2>Pharmacy Assistant - Cavanagh Pharmacy</h2>
+    <li>Filled prescriptions and provided exemplary customer service</li>
+    <h2>Residence Don</h2>
+    <li>Provided a safe and welcoming environment for first-year students</li>
+</div>
+    
+<div id="contact" class="container">
+    <div style="text-align:center">
+        <h2>Contact Me</h2>
+        <p>Leave your name and contact information and I'll get back to you!</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="/w3images/map.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name=email placeholder="Your email..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="uk">UK</option>
+                    <option value="usa">USA</option>
+                </select>
+                <label for="message">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write me a message!" style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>
